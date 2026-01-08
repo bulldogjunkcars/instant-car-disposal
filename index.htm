@@ -1,0 +1,2902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Instant Car Disposal Calgary - Fast, eco-friendly vehicle disposal with instant cash payouts. Free towing, any condition. Call 403-992-4700">
+    <meta name="keywords" content="car disposal Calgary, junk car removal, scrap car Calgary, vehicle recycling, cash for cars">
+    <title>Instant Car Disposal Calgary | Fast Cash for Your Vehicle | 403-992-4700</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ============================================
+           CSS VARIABLES & RESET
+        ============================================ */
+        :root {
+            --midnight-navy: #0F172A;
+            --emerald-green: #10B981;
+            --emerald-hover: #059669;
+            --emerald-light: #D1FAE5;
+            --slate-blue: #64748B;
+            --slate-light: #94A3B8;
+            --snow-white: #F8FAFC;
+            --pure-white: #FFFFFF;
+            --border-color: #E2E8F0;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --shadow-glow: 0 0 40px rgba(16, 185, 129, 0.15);
+            --font-heading: 'Sora', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --transition-fast: 0.15s ease;
+            --transition-base: 0.3s ease;
+            --transition-slow: 0.5s ease;
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--midnight-navy);
+            background-color: var(--snow-white);
+            overflow-x: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition-fast);
+        }
+
+        button {
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        ul, ol {
+            list-style: none;
+        }
+
+        /* ============================================
+           UTILITY CLASSES
+        ============================================ */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .section {
+            padding: 100px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 60px;
+        }
+
+        .section-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-family: var(--font-heading);
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--emerald-green);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-family: var(--font-heading);
+            font-size: clamp(32px, 5vw, 44px);
+            font-weight: 700;
+            color: var(--midnight-navy);
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .section-subtitle {
+            font-size: 18px;
+            color: var(--slate-blue);
+            line-height: 1.7;
+        }
+
+        .highlight {
+            color: var(--emerald-green);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 16px;
+            padding: 16px 32px;
+            border-radius: 12px;
+            transition: var(--transition-base);
+            white-space: nowrap;
+        }
+
+        .btn-primary {
+            background: var(--emerald-green);
+            color: var(--pure-white);
+            box-shadow: var(--shadow-md), 0 0 0 0 rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-primary:hover {
+            background: var(--emerald-hover);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg), 0 0 20px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--pure-white);
+            color: var(--midnight-navy);
+            border: 2px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--emerald-green);
+            color: var(--emerald-green);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--emerald-green);
+            border: 2px solid var(--emerald-green);
+        }
+
+        .btn-outline:hover {
+            background: var(--emerald-green);
+            color: var(--pure-white);
+        }
+
+        /* ============================================
+           HEADER & NAVIGATION
+        ============================================ */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 16px 0;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid transparent;
+            transition: var(--transition-base);
+        }
+
+        .header.scrolled {
+            padding: 12px 0;
+            border-bottom-color: var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: var(--font-heading);
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--midnight-navy);
+        }
+
+        .logo-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--emerald-green), var(--emerald-hover));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--pure-white);
+        }
+
+        .logo-text span {
+            color: var(--emerald-green);
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            font-size: 15px;
+            color: var(--slate-blue);
+            padding: 10px 18px;
+            border-radius: 8px;
+            transition: var(--transition-fast);
+        }
+
+        .nav-link:hover {
+            color: var(--midnight-navy);
+            background: var(--snow-white);
+        }
+
+        .nav-link.active {
+            color: var(--emerald-green);
+        }
+
+        .header-cta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .header-phone {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            color: var(--midnight-navy);
+        }
+
+        .mobile-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            padding: 10px;
+            margin-right: -10px;
+        }
+
+        .mobile-toggle span {
+            width: 24px;
+            height: 2px;
+            background: var(--midnight-navy);
+            border-radius: 2px;
+            transition: var(--transition-base);
+        }
+
+        /* ============================================
+           HERO SECTION
+        ============================================ */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 0 80px;
+            background: linear-gradient(135deg, var(--snow-white) 0%, var(--pure-white) 50%, var(--emerald-light) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--pure-white);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--slate-blue);
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .hero-badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--emerald-green);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .hero-title {
+            font-family: var(--font-heading);
+            font-size: clamp(40px, 6vw, 64px);
+            font-weight: 800;
+            line-height: 1.1;
+            color: var(--midnight-navy);
+            margin-bottom: 24px;
+        }
+
+        .hero-title .highlight {
+            background: linear-gradient(135deg, var(--emerald-green), var(--emerald-hover));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-description {
+            font-size: 20px;
+            color: var(--slate-blue);
+            line-height: 1.7;
+            margin-bottom: 36px;
+            max-width: 500px;
+        }
+
+        .hero-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .hero-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+            color: var(--midnight-navy);
+        }
+
+        .hero-feature-icon {
+            width: 24px;
+            height: 24px;
+            background: var(--emerald-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--emerald-green);
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        /* Quote Card */
+        .quote-card {
+            background: var(--pure-white);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+            border: 1px solid rgba(16, 185, 129, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .quote-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--emerald-green), var(--emerald-hover));
+        }
+
+        .quote-card-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .quote-card-title {
+            font-family: var(--font-heading);
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--midnight-navy);
+            margin-bottom: 8px;
+        }
+
+        .quote-card-subtitle {
+            color: var(--slate-blue);
+            font-size: 15px;
+        }
+
+        .quote-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-label {
+            font-weight: 500;
+            font-size: 14px;
+            color: var(--midnight-navy);
+        }
+
+        .form-input,
+        .form-select,
+        .form-textarea {
+            width: 100%;
+            padding: 14px 18px;
+            font-family: inherit;
+            font-size: 16px;
+            color: var(--midnight-navy);
+            background: var(--snow-white);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            transition: var(--transition-fast);
+        }
+
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--emerald-green);
+            background: var(--pure-white);
+            box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
+        }
+
+        .form-input::placeholder {
+            color: var(--slate-light);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .quote-form .btn {
+            width: 100%;
+            padding: 18px;
+            font-size: 17px;
+        }
+
+        .form-note {
+            text-align: center;
+            font-size: 13px;
+            color: var(--slate-blue);
+        }
+
+        .form-note svg {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+
+        /* ============================================
+           TRUST RIBBON
+        ============================================ */
+        .trust-ribbon {
+            background: var(--pure-white);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            padding: 40px 0;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            padding: 20px;
+            background: var(--snow-white);
+            border-radius: 16px;
+            transition: var(--transition-base);
+        }
+
+        .trust-item:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .trust-icon {
+            width: 56px;
+            height: 56px;
+            background: var(--emerald-light);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--emerald-green);
+            flex-shrink: 0;
+        }
+
+        .trust-content h4 {
+            font-family: var(--font-heading);
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--midnight-navy);
+            margin-bottom: 4px;
+        }
+
+        .trust-content p {
+            font-size: 14px;
+            color: var(--slate-blue);
+        }
+
+        /* ============================================
+           PROCESS SECTION
+        ============================================ */
+        .process-section {
+            background: var(--snow-white);
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            position: relative;
+        }
+
+        .process-grid::before {
+            content: '';
+            position: absolute;
+            top: 80px;
+            left: calc(16.66% + 40px);
+            right: calc(16.66% + 40px);
+            height: 3px;
+            background: linear-gradient(90deg, var(--emerald-green), var(--emerald-hover));
+            border-radius: 3px;
+        }
+
+        .process-card {
+            background: var(--pure-white);
+            border-radius: 24px;
+            padding: 40px 32px;
+            text-align: center;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+            position: relative;
+            transition: var(--transition-base);
+        }
+
+        .process-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .process-number {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--emerald-green), var(--emerald-hover));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 18px;
+            color: var(--pure-white);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .process-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--snow-white);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto 24px;
+            color: var(--emerald-green);
+        }
+
+        .process-card h3 {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--midnight-navy);
+            margin-bottom: 12px;
+        }
+
+        .process-card p {
+            color: var(--slate-blue);
+            line-height: 1.7;
+        }
+
+        .process-card .time-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 20px;
+            padding: 8px 16px;
+            background: var(--emerald-light);
+            border-radius: 100px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--emerald-green);
+        }
+
+        /* ============================================
+           BENEFITS SECTION
+        ============================================ */
+        .benefits-section {
+            background: var(--pure-white);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .benefit-card {
+            background: var(--snow-white);
+            border-radius: 20px;
+            padding: 36px 28px;
+            border: 1px solid var(--border-color);
+            transition: var(--transition-base);
+        }
+
+        .benefit-card:hover {
+            background: var(--pure-white);
+            border-color: var(--emerald-green);
+            box-shadow: var(--shadow-lg), var(--shadow-glow);
+            transform: translateY(-4px);
+        }
+
+        .benefit-icon {
+            width: 64px;
+            height: 64px;
+            background: var(--pure-white);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--emerald-green);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition-base);
+        }
+
+        .benefit-card:hover .benefit-icon {
+            background: var(--emerald-green);
+            color: var(--pure-white);
+        }
+
+        .benefit-card h3 {
+            font-family: var(--font-heading);
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--midnight-navy);
+            margin-bottom: 10px;
+        }
+
+        .benefit-card p {
+            color: var(--slate-blue);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           ENVIRONMENTAL SECTION
+        ============================================ */
+        .environmental-section {
+            background: linear-gradient(135deg, var(--midnight-navy) 0%, #1E293B 100%);
+            color: var(--pure-white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .environmental-section::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);
+        }
+
+        .environmental-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .environmental-content .section-label {
+            color: var(--emerald-green);
+        }
+
+        .environmental-content .section-title {
+            color: var(--pure-white);
+        }
+
+        .environmental-content .section-subtitle {
+            color: var(--slate-light);
+        }
+
+        .eco-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .eco-stat {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .eco-stat-number {
+            font-family: var(--font-heading);
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--emerald-green);
+            margin-bottom: 4px;
+        }
+
+        .eco-stat-label {
+            color: var(--slate-light);
+            font-size: 14px;
+        }
+
+        .recycling-process {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .recycling-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            transition: var(--transition-base);
+        }
+
+        .recycling-step:hover {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+
+        .recycling-step-icon {
+            width: 52px;
+            height: 52px;
+            background: var(--emerald-green);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .recycling-step h4 {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .recycling-step p {
+            color: var(--slate-light);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* ============================================
+           TESTIMONIALS SECTION
+        ============================================ */
+        .testimonials-section {
+            background: var(--snow-white);
+        }
+
+        .testimonials-slider {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .testimonial-card {
+            background: var(--pure-white);
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-color);
+            transition: var(--transition-base);
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .testimonial-avatar {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--emerald-green), var(--emerald-hover));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 20px;
+            color: var(--pure-white);
+        }
+
+        .testimonial-info h4 {
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 17px;
+            color: var(--midnight-navy);
+        }
+
+        .testimonial-location {
+            font-size: 14px;
+            color: var(--slate-blue);
+        }
+
+        .testimonial-stars {
+            display: flex;
+            gap: 4px;
+            margin-bottom: 16px;
+            color: #FBBF24;
+        }
+
+        .testimonial-text {
+            color: var(--slate-blue);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .testimonial-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 20px;
+            font-size: 13px;
+            color: var(--slate-light);
+        }
+
+        .testimonial-badge svg {
+            color: #4285F4;
+        }
+
+        /* ============================================
+           FAQ SECTION
+        ============================================ */
+        .faq-section {
+            background: var(--pure-white);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--snow-white);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            margin-bottom: 16px;
+            overflow: hidden;
+            transition: var(--transition-base);
+        }
+
+        .faq-item:hover {
+            border-color: var(--emerald-green);
+        }
+
+        .faq-item.active {
+            box-shadow: var(--shadow-md);
+            border-color: var(--emerald-green);
+        }
+
+        .faq-question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            width: 100%;
+            padding: 24px 28px;
+            font-family: var(--font-heading);
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--midnight-navy);
+            text-align: left;
+            transition: var(--transition-fast);
+        }
+
+        .faq-question:hover {
+            color: var(--emerald-green);
+        }
+
+        .faq-icon {
+            width: 28px;
+            height: 28px;
+            background: var(--pure-white);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: var(--transition-base);
+        }
+
+        .faq-item.active .faq-icon {
+            background: var(--emerald-green);
+            color: var(--pure-white);
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .faq-answer-content {
+            padding: 0 28px 24px;
+            color: var(--slate-blue);
+            line-height: 1.8;
+        }
+
+        .faq-answer-content ul {
+            margin-top: 12px;
+            padding-left: 20px;
+        }
+
+        .faq-answer-content li {
+            list-style: disc;
+            margin-bottom: 8px;
+        }
+
+        /* ============================================
+           CONTACT SECTION
+        ============================================ */
+        .contact-section {
+            background: linear-gradient(135deg, var(--snow-white) 0%, var(--emerald-light) 100%);
+            text-align: center;
+        }
+
+        .contact-phone {
+            display: inline-flex;
+            align-items: center;
+            gap: 16px;
+            font-family: var(--font-heading);
+            font-size: clamp(32px, 6vw, 56px);
+            font-weight: 800;
+            color: var(--midnight-navy);
+            margin: 40px 0;
+            padding: 24px 48px;
+            background: var(--pure-white);
+            border-radius: 20px;
+            box-shadow: var(--shadow-xl);
+            transition: var(--transition-base);
+        }
+
+        .contact-phone:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-xl), var(--shadow-glow);
+        }
+
+        .contact-phone svg {
+            color: var(--emerald-green);
+        }
+
+        .service-areas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 40px;
+        }
+
+        .service-area-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background: var(--pure-white);
+            border: 1px solid var(--border-color);
+            border-radius: 100px;
+            font-weight: 500;
+            color: var(--midnight-navy);
+            transition: var(--transition-fast);
+        }
+
+        .service-area-tag:hover {
+            border-color: var(--emerald-green);
+            color: var(--emerald-green);
+        }
+
+        .service-area-tag svg {
+            color: var(--emerald-green);
+        }
+
+        /* ============================================
+           FOOTER
+        ============================================ */
+        .footer {
+            background: var(--midnight-navy);
+            color: var(--pure-white);
+            padding: 60px 0 24px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand p {
+            color: var(--slate-light);
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+
+        .footer-title {
+            font-family: var(--font-heading);
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            color: var(--slate-light);
+            font-size: 15px;
+            transition: var(--transition-fast);
+        }
+
+        .footer-links a:hover {
+            color: var(--emerald-green);
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .footer-copyright {
+            color: var(--slate-light);
+            font-size: 14px;
+        }
+
+        .footer-legal {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-legal button {
+            color: var(--slate-light);
+            font-size: 14px;
+            transition: var(--transition-fast);
+        }
+
+        .footer-legal button:hover {
+            color: var(--emerald-green);
+        }
+
+        /* ============================================
+           MODAL
+        ============================================ */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-base);
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            width: 100%;
+            max-width: 700px;
+            max-height: 85vh;
+            background: var(--pure-white);
+            border-radius: 24px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transform: scale(0.9) translateY(20px);
+            transition: var(--transition-base);
+        }
+
+        .modal-overlay.active .modal {
+            transform: scale(1) translateY(0);
+        }
+
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 24px 32px;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: var(--pure-white);
+            z-index: 1;
+        }
+
+        .modal-title {
+            font-family: var(--font-heading);
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--midnight-navy);
+        }
+
+        .modal-close {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: var(--slate-blue);
+            transition: var(--transition-fast);
+        }
+
+        .modal-close:hover {
+            background: var(--snow-white);
+            color: var(--midnight-navy);
+        }
+
+        .modal-body {
+            padding: 32px;
+            overflow-y: auto;
+        }
+
+        .modal-body h3 {
+            font-family: var(--font-heading);
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--midnight-navy);
+            margin: 24px 0 12px;
+        }
+
+        .modal-body h3:first-child {
+            margin-top: 0;
+        }
+
+        .modal-body p {
+            color: var(--slate-blue);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .modal-body ul {
+            margin: 12px 0 16px 24px;
+        }
+
+        .modal-body li {
+            list-style: disc;
+            color: var(--slate-blue);
+            line-height: 1.7;
+            margin-bottom: 8px;
+        }
+
+        /* ============================================
+           SUCCESS MESSAGE
+        ============================================ */
+        .success-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-base);
+        }
+
+        .success-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .success-modal {
+            background: var(--pure-white);
+            border-radius: 24px;
+            padding: 48px;
+            text-align: center;
+            max-width: 420px;
+            transform: scale(0.9);
+            transition: var(--transition-base);
+        }
+
+        .success-overlay.active .success-modal {
+            transform: scale(1);
+        }
+
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--emerald-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            color: var(--emerald-green);
+        }
+
+        .success-modal h3 {
+            font-family: var(--font-heading);
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--midnight-navy);
+            margin-bottom: 12px;
+        }
+
+        .success-modal p {
+            color: var(--slate-blue);
+            line-height: 1.7;
+            margin-bottom: 28px;
+        }
+
+        /* ============================================
+           MOBILE PHONE BAR
+        ============================================ */
+        .mobile-phone-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--emerald-green);
+            padding: 16px 24px;
+            z-index: 999;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .mobile-phone-bar a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            color: var(--pure-white);
+            font-family: var(--font-heading);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        /* ============================================
+           RESPONSIVE STYLES
+        ============================================ */
+        @media (max-width: 1024px) {
+            .hero-grid {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .hero-content {
+                text-align: center;
+            }
+
+            .hero-description {
+                margin: 0 auto 36px;
+            }
+
+            .hero-features {
+                justify-content: center;
+            }
+
+            .hero-actions {
+                justify-content: center;
+            }
+
+            .trust-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .process-grid::before {
+                display: none;
+            }
+
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .environmental-grid {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .testimonials-slider {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                padding: 70px 0;
+            }
+
+            .header-inner {
+                gap: 20px;
+            }
+
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--pure-white);
+                flex-direction: column;
+                padding: 16px;
+                border-bottom: 1px solid var(--border-color);
+                box-shadow: var(--shadow-lg);
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-link {
+                width: 100%;
+                padding: 16px;
+                text-align: center;
+            }
+
+            .header-cta .btn {
+                display: none;
+            }
+
+            .header-phone {
+                display: none;
+            }
+
+            .mobile-toggle {
+                display: flex;
+            }
+
+            .hero {
+                padding: 100px 0 120px;
+            }
+
+            .quote-card {
+                padding: 28px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .eco-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-phone {
+                font-size: 28px;
+                padding: 20px 28px;
+                flex-direction: column;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .mobile-phone-bar {
+                display: block;
+            }
+
+            body {
+                padding-bottom: 70px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .hero-title {
+                font-size: 32px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .quote-card {
+                padding: 24px 20px;
+            }
+
+            .service-areas {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <circle cx="7" cy="17" r="2"/>
+                            <circle cx="17" cy="17" r="2"/>
+                            <path d="M5 17H3v-6l2-4h9l4 4h3v6h-2m-6 0H9"/>
+                            <path d="M10 7 4 13"/>
+                            <path d="M14 7h1"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">Instant<span>Disposal</span></div>
+                </a>
+
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#process" class="nav-link">Our Process</a>
+                    <a href="#benefits" class="nav-link">Why Choose Us</a>
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                </nav>
+
+                <div class="header-cta">
+                    <a href="tel:4039924700" class="header-phone">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        403-992-4700
+                    </a>
+                    <a href="tel:4039924700" class="btn btn-primary">
+                        Get Instant Cash
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="hero-badge-dot"></span>
+                        Calgary's #1 Car Disposal Service
+                    </div>
+                    <h1 class="hero-title">
+                        THE FASTEST WAY TO <span class="highlight">DISPOSE</span> OF YOUR CAR IN CALGARY
+                    </h1>
+                    <p class="hero-description">
+                        Environmentally friendly disposal. Instant payouts. Zero hidden fees. Get cash in hand within hours, not days.
+                    </p>
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <span class="hero-feature-icon">
+                                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            Free Towing Included
+                        </div>
+                        <div class="hero-feature">
+                            <span class="hero-feature-icon">
+                                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            Same-Day Service
+                        </div>
+                        <div class="hero-feature">
+                            <span class="hero-feature-icon">
+                                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </span>
+                            Any Condition
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="tel:4039924700" class="btn btn-primary">
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            Call 403-992-4700
+                        </a>
+                        <a href="#process" class="btn btn-secondary">
+                            See How It Works
+                        </a>
+                    </div>
+                </div>
+
+                <div class="quote-card">
+                    <div class="quote-card-header">
+                        <h2 class="quote-card-title">Get Your Instant Quote</h2>
+                        <p class="quote-card-subtitle">Free, no-obligation estimate in 60 seconds</p>
+                    </div>
+                    <form class="quote-form" id="quoteForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="(403) 555-0123" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="year">Vehicle Year</label>
+                                <select id="year" name="year" class="form-select" required>
+                                    <option value="">Select Year</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="older">2004 or Older</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="make">Make & Model</label>
+                                <input type="text" id="make" name="make" class="form-input" placeholder="e.g., Honda Civic" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="condition">Vehicle Condition</label>
+                            <select id="condition" name="condition" class="form-select" required>
+                                <option value="">Select Condition</option>
+                                <option value="running">Running - Drives Fine</option>
+                                <option value="running-issues">Running - Has Issues</option>
+                                <option value="not-running">Not Running - Has Keys</option>
+                                <option value="no-keys">Not Running - No Keys</option>
+                                <option value="accident">Accident Damaged</option>
+                                <option value="flood">Flood/Fire Damaged</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Get My Free Quote
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </button>
+                        <p class="form-note">
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                            </svg>
+                            Your information is secure and never shared
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Ribbon -->
+    <section class="trust-ribbon">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="m9 12 2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Licensed Recycler</h4>
+                        <p>Alberta certified</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Open 7 Days</h4>
+                        <p>Always available</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Same-Day Service</h4>
+                        <p>Fast turnaround</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <div class="trust-content">
+                        <h4>A+ Rated Service</h4>
+                        <p>5-star reviews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section process-section" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                    Our Process
+                </span>
+                <h2 class="section-title">How Car Disposal Works</h2>
+                <p class="section-subtitle">Three simple steps to turn your unwanted vehicle into instant cash. No hassle, no hidden fees, no waiting around.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <span class="process-number">1</span>
+                    <div class="process-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <h3>Request a Quote</h3>
+                    <p>Call us or fill out the form above. Tell us about your vehicle and get an instant cash offer over the phone.</p>
+                    <span class="time-badge">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        Takes 2 minutes
+                    </span>
+                </div>
+
+                <div class="process-card">
+                    <span class="process-number">2</span>
+                    <div class="process-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M9 11V6a3 3 0 0 1 6 0v5"/>
+                            <rect x="4" y="11" width="16" height="11" rx="2"/>
+                            <path d="M12 17v-2"/>
+                        </svg>
+                    </div>
+                    <h3>Quick Inspection</h3>
+                    <p>Our team arrives at your location at a time that works for you. We verify the vehicle condition and finalize the offer.</p>
+                    <span class="time-badge">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        Takes 15 minutes
+                    </span>
+                </div>
+
+                <div class="process-card">
+                    <span class="process-number">3</span>
+                    <div class="process-icon">
+                        <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <rect x="2" y="6" width="20" height="12" rx="2"/>
+                            <path d="M22 10H2"/>
+                            <path d="M6 14h2"/>
+                            <path d="M12 14h6"/>
+                        </svg>
+                    </div>
+                    <h3>Get Paid Instantly</h3>
+                    <p>Accept the offer, sign the paperwork, and receive cash on the spot. We handle the towing—completely free.</p>
+                    <span class="time-badge">
+                        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                        Same day cash
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section benefits-section" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                    Why Choose Us
+                </span>
+                <h2 class="section-title">The Instant Disposal Advantage</h2>
+                <p class="section-subtitle">We've simplified car disposal so you can focus on what matters. Here's what sets us apart from the competition.</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <circle cx="7" cy="17" r="2"/>
+                            <circle cx="17" cy="17" r="2"/>
+                            <path d="M5 17H3v-6l2-4h9l4 4h3v6h-2"/>
+                            <path d="M9 17h6"/>
+                        </svg>
+                    </div>
+                    <h3>100% Free Towing</h3>
+                    <p>We come to you anywhere in Calgary and surrounding areas. No hidden towing fees, ever.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>Any Condition Accepted</h3>
+                    <p>Running, broken, damaged, incomplete—we buy vehicles in any condition. No judgment, just cash.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Eco-Friendly Recycling</h3>
+                    <p>Certified green disposal process. We safely recycle fluids, parts, and metals responsibly.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                    </div>
+                    <h3>Instant Paperwork</h3>
+                    <p>We handle all the documentation. You just sign, and we take care of registration transfer.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3>Top Market Rates</h3>
+                    <p>Competitive, fair pricing based on current market values. We guarantee the best offer.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Calgary-Wide Coverage</h3>
+                    <p>Serving Calgary, Cochrane, Airdrie, Strathmore, Okotoks, High River, and beyond.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Environmental Section -->
+    <section class="section environmental-section" id="environmental">
+        <div class="container">
+            <div class="environmental-grid">
+                <div class="environmental-content">
+                    <span class="section-label">Our Commitment</span>
+                    <h2 class="section-title">Eco-Friendly Vehicle Recycling</h2>
+                    <p class="section-subtitle">We're not just a disposal service—we're environmental stewards. Every vehicle we process goes through our certified green recycling program.</p>
+
+                    <div class="eco-stats">
+                        <div class="eco-stat">
+                            <div class="eco-stat-number">95%</div>
+                            <div class="eco-stat-label">Materials Recycled</div>
+                        </div>
+                        <div class="eco-stat">
+                            <div class="eco-stat-number">100%</div>
+                            <div class="eco-stat-label">Fluid Containment</div>
+                        </div>
+                        <div class="eco-stat">
+                            <div class="eco-stat-number">Zero</div>
+                            <div class="eco-stat-label">Landfill Waste</div>
+                        </div>
+                        <div class="eco-stat">
+                            <div class="eco-stat-number">5000+</div>
+                            <div class="eco-stat-label">Vehicles Recycled</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recycling-process">
+                    <div class="recycling-step">
+                        <div class="recycling-step-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M2 12a5 5 0 0 0 5 5 8 8 0 0 1 5 2 8 8 0 0 1 5-2 5 5 0 0 0 5-5V7H2z"/>
+                                <path d="M6 7v4"/>
+                                <path d="M18 7v4"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Fluid Extraction</h4>
+                            <p>All hazardous fluids—oil, coolant, brake fluid, transmission fluid—are safely extracted and processed at certified facilities.</p>
+                        </div>
+                    </div>
+
+                    <div class="recycling-step">
+                        <div class="recycling-step-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Parts Salvage</h4>
+                            <p>Usable parts are carefully removed and resold, extending their life cycle and reducing the need for new manufacturing.</p>
+                        </div>
+                    </div>
+
+                    <div class="recycling-step">
+                        <div class="recycling-step-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="23 4 23 10 17 10"/>
+                                <polyline points="1 20 1 14 7 14"/>
+                                <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Metal Recycling</h4>
+                            <p>Steel, aluminum, and other metals are crushed and sent to smelters, where they're transformed into new products.</p>
+                                                </div>
+                    </div>
+
+                    <div class="recycling-step">
+                        <div class="recycling-step-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="m9 12 2 2 4-4"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Certified Disposal</h4>
+                            <p>Any remaining materials are disposed of following strict Alberta environmental regulations, ensuring zero harmful impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                    Customer Reviews
+                </span>
+                <h2 class="section-title">What Calgary Says About Us</h2>
+                <p class="section-subtitle">Don't just take our word for it. Here's what real customers have to say about their experience with Instant Car Disposal.</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">MJ</div>
+                        <div>
+                            <h4>Mike Johnson</h4>
+                            <span class="testimonial-location">Airdrie, AB</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Great service in Airdrie! They picked up my old truck that hadn't run in 2 years. Got $800 cash on the spot. The whole thing took maybe 30 minutes. Highly recommend!"</p>
+                    <div class="testimonial-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Verified Google Review
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">SC</div>
+                        <div>
+                            <h4>Sarah Chen</h4>
+                            <span class="testimonial-location">NW Calgary</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"I was worried about getting rid of my flooded car after the hailstorm. These guys made it so easy! Called in the morning, they came by 2pm, and I had cash in hand before dinner."</p>
+                    <div class="testimonial-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Verified Google Review
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">RP</div>
+                        <div>
+                            <h4>Robert Patel</h4>
+                            <span class="testimonial-location">Cochrane, AB</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Professional and honest. They gave me a fair quote over the phone and didn't try to lowball me when they arrived. Free towing all the way from Cochrane. Can't beat that!"</p>
+                    <div class="testimonial-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Verified Google Review
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">LM</div>
+                        <div>
+                            <h4>Lisa Martinez</h4>
+                            <span class="testimonial-location">SE Calgary</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Finally got rid of that eyesore in my driveway! The team was super friendly, handled all the paperwork, and even swept up after loading the car. 10/10 service!"</p>
+                    <div class="testimonial-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Verified Google Review
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">DW</div>
+                        <div>
+                            <h4>David Wilson</h4>
+                            <span class="testimonial-location">Okotoks, AB</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"Sold them my work van that blew its engine. They came all the way to Okotoks on a Sunday! Got more than I expected. Will definitely use again and recommend to everyone."</p>
+                    <div class="testimonial-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Verified Google Review
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">JT</div>
+                        <div>
+                            <h4>Jennifer Thompson</h4>
+                            <span class="testimonial-location">Strathmore, AB</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">"As a single mom, I didn't have time to deal with selling my old car. One call and they took care of everything. Fair price, fast service, no stress. Thank you!"</p>
+                    <div class="testimonial-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                        Verified Google Review
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                    </svg>
+                    FAQ
+                </span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Got questions? We've got answers. Here's everything you need to know about our car disposal service.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        What documents do I need to sell my car?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer" style="max-height: 200px;">
+                        <div class="faq-answer-content">
+                            <p>To complete the sale, you'll typically need:</p>
+                            <ul>
+                                <li><strong>Vehicle Registration:</strong> The current Alberta registration in your name</li>
+                                <li><strong>Valid ID:</strong> Government-issued photo ID (driver's license or passport)</li>
+                                <li><strong>Keys:</strong> If available (not required for non-running vehicles)</li>
+                            </ul>
+                            <p>If you've lost the registration, don't worry—we can help you navigate the process. In most cases, we can still purchase your vehicle with alternative documentation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly can you pick up my vehicle?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>In most cases, we offer <strong>same-day pickup</strong>. If you call us in the morning, we can often have your vehicle picked up by the afternoon. For calls made later in the day, we typically schedule pickup for the next morning.</p>
+                            <p>We're open 7 days a week, including holidays, so we're always available when you need us. We'll work around your schedule to find a time that's convenient for you.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you buy vehicles without wheels or missing parts?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p><strong>Yes, absolutely!</strong> We buy vehicles in any condition, including:</p>
+                            <ul>
+                                <li>Cars without wheels or tires</li>
+                                <li>Vehicles with missing engines or transmissions</li>
+                                <li>Accident-damaged or fire-damaged vehicles</li>
+                                <li>Cars that have been sitting for years</li>
+                                <li>Incomplete project cars</li>
+                            </ul>
+                            <p>Our specialized tow trucks can handle vehicles in almost any state. Just let us know the condition when you call so we can send the right equipment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How is the price for my vehicle determined?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Our pricing is based on several factors:</p>
+                            <ul>
+                                <li><strong>Current scrap metal prices:</strong> Steel and aluminum values fluctuate with the market</li>
+                                <li><strong>Vehicle weight:</strong> Larger vehicles typically yield more recyclable material</li>
+                                <li><strong>Salvageable parts:</strong> Working components add value to your vehicle</li>
+                                <li><strong>Make and model:</strong> Some vehicles have parts that are in higher demand</li>
+                                <li><strong>Overall condition:</strong> Running vehicles with complete parts fetch higher prices</li>
+                            </ul>
+                            <p>We provide transparent, no-obligation quotes and guarantee to honor the price we quote over the phone.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is towing really free? Are there any hidden fees?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p><strong>100% free, with zero hidden fees.</strong> The price we quote is the price you get—no deductions for towing, paperwork, or any other service. We believe in complete transparency.</p>
+                            <p>This applies to all service areas including Calgary, Airdrie, Cochrane, Strathmore, Okotoks, High River, and surrounding communities within our coverage zone.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What happens to my car after you take it?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>Your vehicle goes through our certified eco-friendly recycling process:</p>
+                            <ul>
+                                <li><strong>Fluid removal:</strong> All hazardous fluids are safely extracted and disposed of properly</li>
+                                <li><strong>Parts salvage:</strong> Usable components are removed for resale, extending their lifecycle</li>
+                                <li><strong>Material recycling:</strong> The remaining metal is crushed and sent to smelters for recycling</li>
+                                <li><strong>Documentation:</strong> You receive confirmation that the vehicle has been properly deregistered</li>
+                            </ul>
+                            <p>Approximately 95% of your vehicle will be recycled, with zero waste going to landfills.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I sell a car that's not in my name?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>In most cases, the registered owner needs to be present for the sale or provide written authorization. However, we can work with various situations:</p>
+                            <ul>
+                                <li><strong>Family member's vehicle:</strong> With proper power of attorney or authorization</li>
+                                <li><strong>Inherited vehicles:</strong> With estate documentation</li>
+                                <li><strong>Abandoned vehicles:</strong> Special process available for property owners</li>
+                            </ul>
+                            <p>Call us to discuss your specific situation—we've handled many complex ownership cases and can guide you through the process.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What areas do you service?
+                        <span class="faq-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            <p>We provide free pickup throughout the Calgary metropolitan area and surrounding communities:</p>
+                            <ul>
+                                <li><strong>Calgary:</strong> All neighborhoods (NW, NE, SW, SE, Downtown)</li>
+                                <li><strong>North:</strong> Airdrie, Crossfield, Carstairs</li>
+                                <li><strong>South:</strong> Okotoks, High River, Nanton</li>
+                                <li><strong>East:</strong> Strathmore, Chestermere, Langdon</li>
+                                <li><strong>West:</strong> Cochrane, Canmore, Banff</li>
+                            </ul>
+                            <p>If your location isn't listed, give us a call—we may still be able to help!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    Get In Touch
+                </span>
+                <h2 class="section-title">Ready to Get Cash for Your Car?</h2>
+                <p class="section-subtitle">Call us now for an instant quote. Our friendly team is standing by 7 days a week to help you.</p>
+            </div>
+
+            <a href="tel:4039924700" class="contact-phone">
+                <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+                403-992-4700
+            </a>
+
+            <div class="service-areas">
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Calgary
+                </span>
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Airdrie
+                </span>
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Cochrane
+                </span>
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Strathmore
+                </span>
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Okotoks
+                </span>
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    High River
+                </span>
+                <span class="service-area-tag">
+                    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Chestermere
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <circle cx="7" cy="17" r="2"/>
+                                <circle cx="17" cy="17" r="2"/>
+                                <path d="M5 17H3v-6l2-4h9l4 4h3v6h-2m-6 0H9"/>
+                                <path d="M10 7 4 13"/>
+                                <path d="M14 7h1"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">Instant<span>Disposal</span></div>
+                    </a>
+                    <p>Calgary's most trusted car disposal service. Fast, eco-friendly, and always fair. We've helped thousands of Calgarians turn their unwanted vehicles into instant cash.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#process">How It Works</a>
+                        <a href="#benefits">Why Choose Us</a>
+                        <a href="#testimonials">Reviews</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Service Areas</h4>
+                    <div class="footer-links">
+                        <a href="#">Calgary</a>
+                        <a href="#">Airdrie</a>
+                        <a href="#">Cochrane</a>
+                        <a href="#">Strathmore</a>
+                        <a href="#">Okotoks</a>
+                        <a href="#">High River</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="footer-links">
+                        <a href="tel:4039924700">📞 403-992-4700</a>
+                        <a href="mailto:info@instantdisposal.ca">✉️ info@instantdisposal.ca</a>
+                        <p style="color: var(--slate-light); font-size: 14px; margin-top: 8px;">Open 7 Days a Week<br>8:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 Instant Car Disposal Calgary. All rights reserved.</p>
+                <div class="footer-legal">
+                    <button onclick="openModal('privacy')">Privacy Policy</button>
+                    <button onclick="openModal('terms')">Terms & Conditions</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Phone Bar -->
+    <div class="mobile-phone-bar">
+        <a href="tel:4039924700">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            Call Now: 403-992-4700
+        </a>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div class="modal-overlay" id="privacyModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Privacy Policy</h3>
+                <button class="modal-close" onclick="closeModal('privacy')">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Last Updated:</strong> January 1, 2024</p>
+                
+                <h3>1. Information We Collect</h3>
+                <p>When you use our services, we may collect the following types of information:</p>
+                <ul>
+                    <li><strong>Personal Information:</strong> Name, phone number, email address, and physical address</li>
+                    <li><strong>Vehicle Information:</strong> Make, model, year, VIN, condition, and registration details</li>
+                    <li><strong>Transaction Information:</strong> Payment details and service history</li>
+                    <li><strong>Communication Records:</strong> Records of calls, emails, and messages exchanged</li>
+                </ul>
+
+                <h3>2. How We Use Your Information</h3>
+                <p>We use the information we collect to:</p>
+                <ul>
+                    <li>Provide quotes and process vehicle disposal services</li>
+                    <li>Communicate with you about your service request</li>
+                    <li>Complete necessary vehicle registration transfers</li>
+                    <li>Comply with legal and regulatory requirements</li>
+                    <li>Improve our services and customer experience</li>
+                </ul>
+
+                <h3>3. Information Sharing</h3>
+                <p>We do not sell your personal information to third parties. We may share your information with:</p>
+                <ul>
+                    <li><strong>Service Partners:</strong> Towing companies and recycling facilities as needed to complete your service</li>
+                    <li><strong>Government Agencies:</strong> Alberta Transportation for vehicle registration purposes</li>
+                    <li><strong>Legal Requirements:</strong> When required by law or to protect our legal rights</li>
+                </ul>
+
+                <h3>4. Data Security</h3>
+                <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes encrypted data transmission, secure storage systems, and limited employee access.</p>
+
+                <h3>5. Data Retention</h3>
+                <p>We retain your personal information for as long as necessary to fulfill the purposes for which it was collected, typically 7 years for transaction records as required by Canadian tax law.</p>
+
+                <h3>6. Your Rights</h3>
+                <p>Under Canadian privacy law, you have the right to:</p>
+                <ul>
+                    <li>Access your personal information</li>
+                    <li>Request correction of inaccurate information</li>
+                    <li>Request deletion of your information (subject to legal retention requirements)</li>
+                    <li>Withdraw consent for marketing communications</li>
+                </ul>
+
+                <h3>7. Contact Us</h3>
+                <p>If you have questions about this Privacy Policy or wish to exercise your rights, please contact us at:</p>
+                <p>Phone: 403-992-4700<br>Email: privacy@instantdisposal.ca</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms & Conditions Modal -->
+    <div class="modal-overlay" id="termsModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Terms & Conditions</h3>
+                <button class="modal-close" onclick="closeModal('terms')">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Last Updated:</strong> January 1, 2024</p>
+                
+                <h3>1. Acceptance of Terms</h3>
+                <p>By using Instant Car Disposal Calgary's services, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.</p>
+
+                <h3>2. Service Description</h3>
+                <p>Instant Car Disposal Calgary provides vehicle purchasing, towing, and recycling services. We buy vehicles in any condition for recycling and proper disposal.</p>
+
+                <h3>3. Vehicle Ownership Requirements</h3>
+                <p>You represent and warrant that:</p>
+                <ul>
+                    <li>You are the legal owner of the vehicle or have authority to sell it</li>
+                    <li>The vehicle is free of liens, encumbrances, and legal claims</li>
+                    <li>You have valid documentation proving ownership</li>
+                    <li>The vehicle has not been reported stolen</li>
+                </ul>
+
+                <h3>4. Pricing and Payment</h3>
+                <p>Quotes provided are based on information you supply about the vehicle. The final price may be adjusted if the vehicle's condition differs significantly from the description. Payment is made at the time of vehicle pickup, typically in cash or certified check.</p>
+
+                <h3>5. Documentation Requirements</h3>
+                <p>To complete a sale, you must provide:</p>
+                <ul>
+                    <li>Valid government-issued photo identification</li>
+                    <li>Vehicle registration in your name (or proper authorization)</li>
+                    <li>Any additional documents required by Alberta law</li>
+                </ul>
+
+                <h3>6. Liability Limitations</h3>
+                <p>Instant Car Disposal Calgary shall not be liable for:</p>
+                <ul>
+                    <li>Personal property left in the vehicle after pickup</li>
+                    <li>Delays caused by circumstances beyond our control</li>
+                    <li>Any indirect, incidental, or consequential damages</li>
+                    <li>Damages exceeding the purchase price of the vehicle</li>
+                </ul>
+
+                <h3>7. Vehicle Transfer</h3>
+                <p>Upon completion of the sale, ownership of the vehicle transfers to Instant Car Disposal Calgary. We will handle the vehicle registration transfer with Alberta Transportation. You will receive documentation confirming the transfer.</p>
+
+                <h3>8. Cancellation Policy</h3>
+                <p>You may cancel a scheduled pickup at no charge with at least 2 hours notice. Repeated cancellations may affect our ability to provide service.</p>
+
+                <h3>9. Environmental Compliance</h3>
+                <p>We are committed to environmentally responsible vehicle recycling. All vehicles are processed in compliance with Alberta Environmental Protection and Enhancement Act regulations.</p>
+
+                <h3>10. Dispute Resolution</h3>
+                <p>Any disputes arising from these terms shall be resolved through good-faith negotiation. If resolution cannot be reached, disputes will be subject to the jurisdiction of Alberta courts.</p>
+
+                <h3>11. Modifications to Terms</h3>
+                <p>We reserve the right to modify these terms at any time. Continued use of our services after modifications constitutes acceptance of the updated terms.</p>
+
+                <h3>12. Contact Information</h3>
+                <p>For questions about these Terms & Conditions, contact us at:</p>
+                <p>Phone: 403-992-4700<br>Email: info@instantdisposal.ca</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message Overlay -->
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-modal">
+            <div class="success-icon">
+                <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                    <polyline points="20 6 9 17 4 12"/>
+                </svg>
+            </div>
+            <h3>Quote Request Received!</h3>
+            <p>Thank you for your submission. One of our team members will call you within 15 minutes with your instant cash offer.</p>
+            <button class="btn btn-primary" onclick="closeSuccessOverlay()">Got It!</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // ============================================
+        // HEADER SCROLL EFFECT
+        // ============================================
+        const header = document.getElementById('header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // ============================================
+        // MOBILE MENU TOGGLE
+        // ============================================
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            });
+        });
+
+        // ============================================
+        // SMOOTH SCROLLING
+        // ============================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerOffset = 80;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // ============================================
+        // FAQ ACCORDION
+        // ============================================
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            const answer = item.querySelector('.faq-answer');
+
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                
+                // Close all FAQ items
+                faqItems.forEach(faq => {
+                    faq.classList.remove('active');
+                    faq.querySelector('.faq-answer').style.maxHeight = '0';
+                });
+
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    item.classList.add('active');
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                }
+            });
+        });
+
+        // ============================================
+        // FORM HANDLER
+        // ============================================
+        const quoteForm = document.getElementById('quoteForm');
+        const successOverlay = document.getElementById('successOverlay');
+
+        quoteForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Log form data (in production, send to server)
+            console.log('Form submitted:', data);
+            
+            // Show success message
+            successOverlay.classList.add('active');
+            
+            // Reset form
+            this.reset();
+        });
+
+        function closeSuccessOverlay() {
+            successOverlay.classList.remove('active');
+        }
+
+        // Close success overlay when clicking outside
+        successOverlay.addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeSuccessOverlay();
+            }
+        });
+
+        // ============================================
+        // MODAL CONTROLLER
+        // ============================================
+        function openModal(type) {
+            const modalId = type === 'privacy' ? 'privacyModal' : 'termsModal';
+            document.getElementById(modalId).classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(type) {
+            const modalId = type === 'privacy' ? 'privacyModal' : 'termsModal';
+            document.getElementById(modalId).classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal when clicking overlay
+        document.querySelectorAll('.modal-overlay').forEach(overlay => {
+            overlay.addEventListener('click', function(e) {
+                if (e.target === this) {
+                    this.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                document.querySelectorAll('.modal-overlay.active').forEach(modal => {
+                    modal.classList.remove('active');
+                });
+                successOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+
+        // ============================================
+        // ACTIVE NAV LINK ON SCROLL
+        // ============================================
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        function setActiveLink() {
+            let currentSection = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                
+                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', setActiveLink);
+        setActiveLink();
+
+        // ============================================
+        // INTERSECTION OBSERVER FOR ANIMATIONS
+        // ============================================
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.process-card, .benefit-card, .testimonial-card, .trust-item, .recycling-step').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
