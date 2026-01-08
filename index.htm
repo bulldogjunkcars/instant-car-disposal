@@ -1638,37 +1638,74 @@
                         <h2 class="quote-card-title">Get Your Instant Quote</h2>
                         <p class="quote-card-subtitle">Free, no-obligation estimate in 60 seconds</p>
                     </div>
-                    <form class="quote-form" action="https://formspree.io/f/xrebndjq" method="POST">
+                    <form class="quote-form" id="quoteForm" name="calgary-car-quote" method="POST" data-netlify="true">
                         <div class="form-row">
                             <div class="form-group">
-                                <label class="form-label" for="name">Full Name</label>
-                                <input type="text" class="form-input" id="name" name="name" placeholder="John Doe" required>
+                                <label class="form-label" for="name">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="John Smith" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="phone">Phone Number</label>
-                                <input type="tel" class="form-input" id="phone" name="phone" placeholder="403-000-0000" required>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="(403) 555-0123" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label" for="year">Vehicle Year</label>
+                                <select id="year" name="year" class="form-select" required>
+                                    <option value="">Select Year</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="older">2004 or Older</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="make">Make & Model</label>
+                                <input type="text" id="make" name="make" class="form-input" placeholder="e.g., Honda Civic" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label class="form-label" for="vehicle">Vehicle Info (Year, Make, Model)</label>
-                            <input type="text" class="form-input" id="vehicle" name="vehicle" placeholder="2012 Honda Civic" required>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="location">Location in Calgary</label>
-                            <input type="text" class="form-input" id="location" name="location" placeholder="NW Calgary, Airdrie, etc." required>
+                            <label class="form-label" for="condition">Vehicle Condition</label>
+                            <select id="condition" name="condition" class="form-select" required>
+                                <option value="">Select Condition</option>
+                                <option value="running">Running - Drives Fine</option>
+                                <option value="running-issues">Running - Has Issues</option>
+                                <option value="not-running">Not Running - Has Keys</option>
+                                <option value="no-keys">Not Running - No Keys</option>
+                                <option value="accident">Accident Damaged</option>
+                                <option value="flood">Flood/Fire Damaged</option>
+                            </select>
                         </div>
                         <button type="submit" class="btn btn-primary">
-                            Get Instant Quote
-                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                            Get My Free Quote
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"/>
                             </svg>
                         </button>
                         <p class="form-note">
-                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1Z"/>
+                            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
                             </svg>
-                            Your data is secure and confidential
+                            Your information is secure and never shared
                         </p>
                     </form>
                 </div>
@@ -2740,25 +2777,25 @@
         // ============================================
         // FORM HANDLER
         // ============================================
-        const quoteForm = document.getElementById('quoteForm');
-        const successOverlay = document.getElementById('successOverlay');
+        //const quoteForm = document.getElementById('quoteForm');
+        //const successOverlay = document.getElementById('successOverlay');
 
-        quoteForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+        //quoteForm.addEventListener('submit', function(e) {
+            //e.preventDefault();
             
-           // // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);//
+            // Get form data
+            //const formData = new FormData(this);
+            //const data = Object.fromEntries(formData);
             
             // Log form data (in production, send to server)
-            console.log('Form submitted:', data);
+            //console.log('Form submitted:', data);
             
             // Show success message
-            successOverlay.classList.add('active');
+            //successOverlay.classList.add('active');
             
             // Reset form
-            this.reset();
-        });
+            //this.reset();
+        //});
 
         function closeSuccessOverlay() {
             successOverlay.classList.remove('active');
